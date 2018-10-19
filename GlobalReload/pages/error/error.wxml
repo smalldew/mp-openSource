@@ -1,0 +1,3 @@
+<!--pages/error/error.wxml-->
+<text class='error_text'>服务器开小差了，请稍后再试</text>
+<button class='error_button_reload' bindtap='clickReload'>刷新重试</button>

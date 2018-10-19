@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<text>pages/index/index.wxml</text>
+
+<button bindtap='clickJump'>点击跳转到下一页</button>
+<button bindtap='clickJumpSubPackage'>点击跳转到分包页面</button>

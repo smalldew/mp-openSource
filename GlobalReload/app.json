@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/error/error",
+    "pages/subIndex/subIndex"
+  ],
+  "subPackages": [
+    {
+      "root": "package/buy",
+      "pages": [
+        "buyDetail/buyDetail"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
