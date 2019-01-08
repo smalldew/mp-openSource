@@ -1,0 +1,16 @@
+<!--components/toastImage/toastImage.wxml-->
+ <view class='background' wx:if="{{isShow}}">
+  <view class='foreground' style='width:{{toastImage_fg_width}}rpx;height:{{toastImage_fg_height}}rpx'>
+    <image class='close' src='https://wx-static.yangcong345.com/v_1_8_0_assistVip_scan_group_close.png' bindtap='_clickToastImageClose'></image>
+
+
+    <image class='toastView_bg_image' src='{{bg_image}}'></image>
+
+    <image class='image' src='{{image}}'></image>    
+
+    <image class='save' wx:if="{{toastImage_showSaveButton}}" src="https://wx-static.yangcong345.com/v_1_8_0_assistVip_scan_save.png" bindtap='_clickToastImageSave'>保存图片</image>
+  </view>
+</view> 
+
+<!-- 绘制保存的图片 -->
+<canvas canvas-id='shareCanvas' style='width:280px;height:375px' hidden='true'> </canvas> 

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "shareView": "/components/shareView/shareView",
+    "toastImage": "/components/toastImage/toastImage"
+  }
+}

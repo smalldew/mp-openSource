@@ -1,0 +1,48 @@
+/* components/toastImage/toastImage.wxss */
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foreground {
+  width: 560rpx;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  border-radius: 10rpx;
+  position: relative;
+}
+.toastView_bg_image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 99; 
+}
+.image {
+  width: 340rpx;
+  height: 340rpx; 
+  position: absolute;
+  top: 231rpx;
+}
+.close {
+  width: 46rpx;
+  height: 46rpx;
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  z-index: 100; 
+}
+.save {
+  position: absolute;
+  bottom: 30rpx;
+  width: 440rpx;
+  height: 70rpx;
+  z-index: 99; 
+}

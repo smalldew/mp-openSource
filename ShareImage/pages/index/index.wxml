@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<!-- 分享组件 -->
+<shareView id="shareView"
+           title="{{shareViewData.title}}"
+           plantforms="{{shareViewData.plantforms}}"
+           bind:clickShareViewPlatform="_clickShareViewPlatform"
+           bind:clickShareViewCancel="_clickShareViewCancel">
+</shareView>
+
+<!-- 弹窗组件-仅展示图片 -->
+<toastImage id="toastImage"
+            bg_image="{{toastImage_bg_imageSrc}}"
+            image="{{toastImage_imageSrc}}"
+            toastImage_fg_width="{{toastImage_fg_width}}"
+            toastImage_fg_height="{{toastImage_fg_height}}"
+            toastImage_showSaveButton="{{toastImage_showSaveButton}}"
+            bind:clickToastImageSave="_clickToastImageSave"
+            bind:clickToastImageClose="_clickToastImageClose">
+</toastImage> 
+
+<button bindtap='clickShare'>点击分享</button>

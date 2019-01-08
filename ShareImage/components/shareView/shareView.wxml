@@ -1,0 +1,19 @@
+<!--components/shareView.wxml-->
+<view class='background' wx:if="{{isShow}}">
+  <view class='foreground'>
+     <view class='title'>{{title}}</view>
+     <view class='splitLine'></view>
+
+    <view class='sharePlatform'>
+      <block wx:key="sharePlatform" wx:for="{{plantforms}}">
+        <button class='plantform moments' bindtap='_clickShareViewPlatform' data-name='{{item.name}}' open-type='{{item.openType}}' plain style='border-color:white;color:#888888;'>
+          <image class='platform_img' src='{{item.image}}'></image>
+          <text class='platform_text'>{{item.text}}</text>
+        </button>
+      </block>
+    </view>
+    
+    <view class='splitBottomLine'></view>
+    <view class='cancel' bindtap='_clickShareViewCancel'>取消</view>
+  </view>
+</view>
