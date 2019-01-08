@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
-let url_host = 'https://api-wx.yangcong345.com/'
+let url_host = 'https://api-wx-test.yangcong345.com/'
 let url_downloadMpcode = 'parents/vipRewardHelp/mpCode.jpeg'
 
 Page({
@@ -39,7 +39,7 @@ Page({
   onLoad: function () {
     let that = this
     wx.downloadFile({
-      url: 'https://api-wx.yangcong345.com/parents/vipRewardHelp/mpCode.jpeg?unionId=o8Xt4txUzphRXa4MUC8ROPl21dnM&pages/assistVip/assistVip',
+      url: 'https://api-wx-test.yangcong345.com/parents/vipRewardHelp/mpCode.jpeg?unionId=o8Xt4txUzphRXa4MUC8ROPl21dnM&pages/assistVip/assistVip',
       success(res) {
         that.setData({
           xcxCode_tempFilePath: res.tempFilePath

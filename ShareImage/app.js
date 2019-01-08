@@ -1,6 +1,4 @@
 //app.js
-let url_host = 'https://api-wx.yangcong345.com/'
-let url_postUserInfo = 'parents/wechatUserInfo'
 
 App({
   globalData: {
