@@ -1,0 +1,13 @@
+<!--pages/end/end.wxml-->
+<navigationBar 
+id="gainPhone" 
+text="{{nav.title}}" 
+back="{{nav.back}}"
+home="{{nav.home}}"
+>
+</navigationBar>
+
+<text>测试此页面时:\n1.请将app.json里面的usingComponents删除掉\n2.请将app.json里面的window下面的navigationStyle改成default(为避免其他页面顶部UI错乱)
+</text>
+
+<text>注意事项：\n1.需要调试基础库>=2.4.3\n2.需要微信客户端>=7.0.0</text>

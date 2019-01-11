@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/subIndex/subIndex",
+    "pages/thirdIndex/thirdIndex",
+    "pages/end/end"
+  ],
+  "usingComponents": {
+    "navigationBar": "/components/navigationBar/navigationBar"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  }
+}

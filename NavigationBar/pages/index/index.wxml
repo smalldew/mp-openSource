@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<navigationBar 
+id="gainPhone" 
+text="{{nav.title}}" 
+back="{{nav.back}}"
+home="{{nav.home}}"
+>
+</navigationBar>
+
+
+<button bindtap='clickSubIndex'>点击跳转子页面</button>
+
+<button bindtap='clickEnd'>点击跳转自定义页面</button>

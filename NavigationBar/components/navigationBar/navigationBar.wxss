@@ -1,0 +1,58 @@
+/* components/navigationBar/navigationBar.wxss */
+.navbar {
+  width: 100%;
+  background-color: #1797eb;
+  position: relative;
+  z-index: 999;
+}
+
+.title-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.capsule {
+  margin-left: 10px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #fff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.capsule > view {
+  width: 45px;
+  height: 60%;
+  position: relative;
+}
+
+.capsule > view:nth-child(2) {
+  border-left: 1px solid #fff;  
+}
+
+.capsule image {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title {
+  color: white;
+  position: absolute;
+  top: 6px;
+  left: 104px;
+  right: 104px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
