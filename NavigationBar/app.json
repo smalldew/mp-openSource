@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/subIndex/subIndex",
     "pages/thirdIndex/thirdIndex",
-    "pages/end/end"
+    "pages/end/end",
+    "pages/fixed/fixed",
+    "pages/fixedSub/fixedSub"
   ],
   "usingComponents": {
     "navigationBar": "/components/navigationBar/navigationBar"

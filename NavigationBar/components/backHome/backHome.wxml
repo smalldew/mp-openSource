@@ -1,0 +1,2 @@
+<!--components/backHome/backHome.wxml-->
+<view class='backHome' bindtap='clickBackHome'>返回首页</view>

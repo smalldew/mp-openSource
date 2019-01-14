@@ -1,0 +1,2 @@
+<!--pages/fixed/fixed.wxml-->
+<button bindtap='clickFixedSub'>点击进入三级页面</button>
