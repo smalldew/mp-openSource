@@ -1,0 +1,32 @@
+<!--index.wxml-->
+
+<!-- 顶部选择器 -->
+<view class="nav {{shownavindex == 1 ? 'active' : ''}}" bindtap="listqy" data-nav="1">
+  <view class="content">{{grade}}、{{course}}、{{section}}</view>
+  <view class="icon"></view>
+</view>
+
+<!-- 展开选项 -->
+<view class="quyu {{qyopen ? 'slidown' : 'slidup'}} {{qyshow ? 'disappear':''}}">
+  <view class="qy quyu-left">
+    <view class="{{select1 == index ? 'current' : ''}}" wx:for="{{cityleft}}" wx:key="cityleft" bindtap="selectleft" data-city="{{index}}"> {{index}}
+    </view>
+  </view>
+
+  <view class="qy quyu-center">
+    <view class="{{select2 == index ? 'current2' : ''}}" wx:for="{{citycenter}}" wx:key="citycenter" bindtap="selectcenter" data-city='{{index}}'>
+      {{index}}
+    </view>
+  </view>
+
+  <view class="qy quyu-right" >
+    <view class="{{select3 == index ? 'current3' : ''}}" wx:for="{{cityright}}" wx:key="cityright" bindtap="selectright" data-city='{{index}}'>
+      {{item}}
+    </view>
+  </view>
+</view>
+
+<!-- 灰色背景 -->
+<view class="fullbg fullopacity" wx:if="{{isfull}}" bindtap="hidebg">
+</view>
+
