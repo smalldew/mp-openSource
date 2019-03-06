@@ -4,7 +4,7 @@
   <view class='title-container'>
     <view class='capsule' wx:if="{{ back || home }}">
       <view bindtap='back' wx:if="{{back}}">
-        <image src='/images/back.png'></image>            
+        <image src='/images/back.png'></image>         
       </view>
       <view bindtap='backHome' wx:if="{{home}}">
         <image src='/images/home.png'></image>
@@ -13,4 +13,8 @@
     <view class='title'>{{text}}</view>
   </view>
 </view>
+
+<!-- 因为设置fixed后页面元素整体上移了navigationBarHeight，所以在此组件里设置一个空白view元素占用最上面的navigationBarHeight这块高度 -->
+<view style="{{'height: ' + navigationBarHeight}};background: white;"></view>
+
 
