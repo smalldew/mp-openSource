@@ -15,7 +15,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.9.1",
 	"appid": "wxf1d5208e99515e3c",
-	"projectname": "topHint",
+	"projectname": "Components",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

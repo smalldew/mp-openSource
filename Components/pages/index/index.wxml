@@ -17,5 +17,5 @@
 </toastView>
 
 
-<view class="tip" bindtap="clickShowTip">点击出现错误提示</view>
 <view class="tip" bindtap="clickShowView">点击出现带图片文字的弹窗</view>
+<view class="tip" bindtap="clickShowTip">点击出现错误提示</view>
