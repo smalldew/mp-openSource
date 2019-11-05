@@ -10,4 +10,4 @@ home="{{nav.home}}"
 
 <button bindtap='clickThirdIndex'>点击跳转到3级页面</button>
 
-<text>我是"{{nav.title}}",是否有返回按钮"{{nav.back}}"，是否有home按钮"{{nav.home}}"</text>
+<text>我是"{{nav.title}}"\n是否有返回按钮"{{nav.back}}"\n是否有home按钮"{{nav.home}}"</text>

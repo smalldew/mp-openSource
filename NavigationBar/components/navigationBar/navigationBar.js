@@ -1,5 +1,6 @@
 // components/navigationBar/navigationBar.js
 const app = getApp()
+const statusBarHeight = app.globalData.systemInfo.statusBarHeight || 20
 
 Component({
 
@@ -18,8 +19,8 @@ Component({
     }
   },
   data: {
-    statusBarHeight: app.globalData.statusBarHeight + 'px',
-    navigationBarHeight: (app.globalData.statusBarHeight + 44) + 'px'
+    statusBarHeight: statusBarHeight + 'px',
+    navigationBarHeight: (statusBarHeight + 44) + 'px'
   },
 
   methods: {

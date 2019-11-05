@@ -2,15 +2,14 @@
 App({
   globalData: {
     userInfo: null,
-    statusBarHeight: '',
+    systemInfo: '',
   },
   onLaunch: function () {
-    wx.getSystemInfo({
-      success: (res) => {
-        this.globalData.statusBarHeight = res.statusBarHeight
-        console.log('statusBarHeight' +  JSON.stringify(res))
-      }
-    })
+    this.getSystemInfo()
   },
-
+  getSystemInfo() {
+    const res  = wx.getSystemInfoSync()
+    this.globalData.systemInfo = res
+    console.log('systemInfo' + JSON.stringify(res))
+  }
 })
