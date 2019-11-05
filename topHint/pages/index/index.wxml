@@ -1,0 +1,21 @@
+<!--index.wxml-->
+
+<topHint 
+  id='topHint' 
+  content='帐号或密码不正确，请重新输入'
+  background='#E14116'>
+</topHint>
+
+<toastView
+  id="toastView"
+  title="我是标题"
+  content="我是弹窗内容,这是一个包含标题，内容，图片的自定义弹窗。\n我是弹窗内容,这是一个包含标题，内容，图片的自定义弹窗"
+  image="https://wx-static.yangcong345.com/v_2_0_0_vip_detail_10@3x.png"
+  bind:confirmEvent="_clickConfirmEvent"
+  bind:cancelEvent="_clickCancelEvent"
+>
+</toastView>
+
+
+<view class="tip" bindtap="clickShowTip">点击出现错误提示</view>
+<view class="tip" bindtap="clickShowView">点击出现带图片文字的弹窗</view>

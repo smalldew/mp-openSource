@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "topHint": "/components/topHint/topHint",
+    "toastView": "/components/toastImageText/toastImageText"
+  }
+}

@@ -1,0 +1,18 @@
+<!--components/toastImageText/toastImageText.wxml-->
+<view class='background' wx:if="{{isShow}}">
+  <view class='foreground' >
+
+    <view class='toastView_title'>{{title}}</view>
+
+    <view class='toastView_content'>
+      <text>{{content}}</text>
+    </view>
+    
+    <image class='toastView_image' wx:if="{{image}}" src='{{image}}' mode='widthFix'></image>
+
+    <view class='toastView_bottom'>
+      <view class='toastView_cancel' bindtap='_cancelEvent'>{{cancelText}}</view>
+      <view class='toastView_confirm' bindtap='_confirmEvent'>{{confirmText}}</view>
+    </view>
+  </view>
+</view>

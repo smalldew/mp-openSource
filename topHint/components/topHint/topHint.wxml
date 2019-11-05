@@ -1,0 +1,3 @@
+<!--components/topHint/topHint.wxml-->
+ <view animation="{{animationData}}" class='bindFaild' style="background:{{background}}">{{content}}</view>
+

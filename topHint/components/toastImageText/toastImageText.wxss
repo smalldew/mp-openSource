@@ -1,0 +1,80 @@
+/* components/toastImageText/toastImageText.wxss */
+.background {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foreground {
+  width: 560rpx;
+  height: auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  border-radius: 8rpx;
+}
+.toastView_title {
+  width: 100%;
+  height: 50rpx;
+  margin-top: 24rpx;
+  font-size: 34rpx;
+  color: #3B3B3B;
+  line-height: 50rpx;
+  font-weight: 500;
+  text-align: center;
+}
+.toastView_content {
+  width: 100%;
+  height: auto;
+  margin-top: 16rpx;
+  margin-bottom: 0rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  line-height: 44rpx;
+  color: #6A6A6A;
+}
+.toastView_image { 
+  width: 228rpx;
+  margin-top: 16rpx;
+}
+.splitLine {
+  width: 100%;
+  height: 1rpx;
+  background: #E8E8E8;
+}
+.toastView_bottom {
+  width: 464rpx;
+  height: 80rpx;
+  margin-top: 32rpx;
+  margin-bottom: 48rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30rpx;
+}
+.toastView_confirm {
+  width: 216rpx;
+  height: 80rpx;
+  background: #FBCF00;
+  border-radius: 8rpx; 
+  color: #FFFFFF;
+  line-height: 80rpx;
+  text-align: center;
+}
+.toastView_cancel {
+  width: 216rpx;
+  height: 80rpx;
+  background: #F3F3F3;
+  border-radius: 8rpx;
+  color: #888888; 
+  line-height: 80rpx;
+  text-align: center;
+}
