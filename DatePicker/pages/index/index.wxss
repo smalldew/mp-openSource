@@ -1,0 +1,24 @@
+/**index.wxss**/
+
+.choosed-view {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background: #8995AB;
+}
+.choose-view {
+  width: 40%;
+  padding-left: 20rpx;
+}
+.today {
+  font-size: 18rpx;
+}
+.date {
+  width: 400rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  text-align: center;
+}

@@ -25,3 +25,8 @@
 
 * topHint 当输入账号密码错误等情况下的错误提示
 * toastImageText 自定义弹窗
+
+**DatePicker**
+
+* 预定酒店日期选择器
+

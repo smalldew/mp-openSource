@@ -1,0 +1,47 @@
+/* pages/dateSelect/dateSelect.wxss */
+page{
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "\9ED1\4F53", Arial, sans-serif;
+  color:#333;
+  font-size: 28rpx;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+.layout-flex{
+    display:flex;
+}
+.layout-flex .row{
+    flex-direction: row;
+}
+.layout-flex .column{
+    flex-direction: column;
+}
+.align-center{
+    align-items:center;
+    justify-content: center;
+}
+
+.date-day{
+    display: flex;
+    margin:5px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.date-day.active{
+    background: #FF9C01;
+    color:#FFF;
+    border-radius: 100%;
+}
+.date-day.unavailable{
+    color:#aaa;
+}
+
+.date-week{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:5px;
+}
+.week{
+    color:#FF9C01;
+}

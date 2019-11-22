@@ -1,0 +1,11 @@
+<!--index.wxml-->
+
+<view class='choosed-view' bindtap='tapSelectDate' wx:if="{{checkOutDate}}"> 
+  <view class='date'>
+    <text>入住时间<text class='today' wx:if="{{isToday}}">（今天）</text>\n{{checkInDate}}</text>
+  </view>
+
+  <view class='date'>
+    <text>离店时间\n{{checkOutDate}}</text>
+  </view>
+</view>
